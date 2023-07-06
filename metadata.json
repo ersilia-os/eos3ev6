@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos3ev6",
+    "Slug": "ncats-cyp3a4",
+    "Status": "In progress",
+    "Title": "Development of Robust Quantitative Structure-Activity Relationship Models for CYP3A4 Catalysis and Inhibition",
+    "Description": "Analysis of metabolic stability, determining the inhibition of CYP450 activity and whether the compounds are a substrate for the CYP450 enzyme using specifically CYP3A4. The data to build these models is publicly available at PubChem, AID1645840, AID1645841, AID1645842",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,12 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": [
+        "CYP450",
+        "ADME",
+        "Metabolism"
+    ],
+    "Publication": "https://dmd.aspetjournals.org/content/49/9/822",
+    "Source Code": "https://github.com/ncats/ncats-adme",
+    "License": "None"
 }
