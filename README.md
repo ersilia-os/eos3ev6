@@ -1,6 +1,6 @@
-# Development of Robust Quantitative Structure-Activity Relationship Models for CYP3A4 Catalysis and Inhibition
+# CYP3A4 Metabolism
 
-Analysis of metabolic stability, determining the inhibition of CYP450 activity and whether the compounds are a substrate for the CYP450 enzyme using specifically CYP3A4. The data to build these models is publicly available at PubChem, AID1645840, AID1645841, AID1645842
+Analysis of metabolic stability, determining the inhibition of CYP3A4 activity and whether the compounds are a substrate for the CYP3A$ enzyme. The data to build these models has been publicly available at PubChem (AID1645840, AID1645841, AID1645842) by ADME@NCATS.
 
 ## Identifiers
 
