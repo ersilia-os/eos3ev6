@@ -1,4 +1,20 @@
-FROM ersiliaos/base-v2:latest as build
+FROM bentoml/model-server:0.11.0-py37
+MAINTAINER ersilia
+
+RUN pip install rdkit==2022.9.5
+RUN pip install numpy==1.21.6
+RUN pip install pandas==1.1.5
+RUN pip install torch torchaudio torchvision
+RUN pip install tqdm==4.65
+RUN pip install typing-extensions==4.5.0
+RUN pip install typed-argument-parser==1.8.0
+RUN pip install tensorboardX==2.6
+RUN pip install scikit-learn
+RUN pip install hyperopt==0.2.7
+RUN conda install -c conda-forge xorg-libxrender xorg-libxtst
+
+WORKDIR /repo
+COPY . /repoFROM ersiliaos/base-v2:latest as build
 ARG MODEL=eos3ev6
 ENV MODEL=$MODEL
 RUN ersilia -v fetch $MODEL --from_github
