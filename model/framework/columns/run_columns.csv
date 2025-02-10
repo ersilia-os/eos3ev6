@@ -1,0 +1,3 @@
+name,type,direction,description
+CYP3A4_inhib,float,high,Probability of inhibition of the CYP3A4
+CYP3A4_subs,float,high,Probability of being metabolized by CYP3A4
