@@ -40,5 +40,5 @@ print(smiles_list)
 outputs = my_model(smiles_list)
 
 # write output in a .csv file
-
+outputs.columns = [col.lower() for col in outputs.columns]
 outputs.to_csv(output_file, index=False)
