@@ -3,21 +3,18 @@
     "Slug": "ncats-cyp3a4",
     "Status": "Ready",
     "Title": "CYP3A4 metabolism",
-    "Description": "Analysis of metabolic stability, determining the inhibition of CYP3A4 activity and whether the compounds are a substrate for the CYP3A$ enzyme. The data to build these models has been publicly available at PubChem (AID1645840, AID1645841, AID1645842) by ADME@NCATS.\n",
+    "Description": "Analysis of metabolic stability, determining the inhibition of CYP3A4 activity and whether the compounds are a substrate for the CYP3A$ enzyme. The data to build these models has been publicly available at PubChem (AID1645840, AID1645841, AID1645842) by ADME@NCATS.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "ADMET"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Probability"
     ],
@@ -29,20 +26,25 @@
         "ADME",
         "Metabolism"
     ],
-    "Publication": "https://dmd.aspetjournals.org/content/49/9/822",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2021,
+    "Publication": "https://dmd.aspetjournals.org/content/49/9/822",
     "Source Code": "https://github.com/ncats/ncats-adme",
     "License": "None",
     "Contributor": "ZakiaYahya",
     "Incorporation Date": "2023-07-06",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ev6.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3ev6",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ev6.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 2506.0,
+    "Environment Size": 2447.0
 }
