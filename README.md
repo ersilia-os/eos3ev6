@@ -4,6 +4,7 @@ Analysis of metabolic stability, determining the inhibition of CYP3A4 activity a
 
 This model was incorporated on 2023-07-06.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos3ev6`
@@ -13,7 +14,7 @@ This model was incorporated on 2023-07-06.
 - **Task:** `Annotation`
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `ADMET`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `CYP450`, `ADME`, `Metabolism`
 
 ### Input
