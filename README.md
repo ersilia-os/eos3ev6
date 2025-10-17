@@ -2,8 +2,7 @@
 
 Analysis of metabolic stability, determining the inhibition of CYP3A4 activity and whether the compounds are a substrate for the CYP3A$ enzyme. The data to build these models has been publicly available at PubChem (AID1645840, AID1645841, AID1645842) by ADME@NCATS.
 
-This model was incorporated on 2023-07-06.
-
+This model was incorporated on 2023-07-06.Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
@@ -37,18 +36,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3ev6](https://hub.docker.com/r/ersiliaos/eos3ev6)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ev6.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ev6.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2506`
 - **Environment Size (Mb):** `2460`
-- **Image Size (Mb):** `7000.69`
+- **Image Size (Mb):** `7083.06`
 
 **Computational Performance (seconds):**
-- 10 inputs: `47.99`
-- 100 inputs: `42.22`
-- 10000 inputs: `1338.99`
+- 10 inputs: `33.2`
+- 100 inputs: `43.12`
+- 10000 inputs: `1333.4`
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
