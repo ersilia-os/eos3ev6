@@ -51,7 +51,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
-- **Publication**: [https://dmd.aspetjournals.org/content/49/9/822](https://dmd.aspetjournals.org/content/49/9/822)
+- **Publication**: [https://doi.org/10.1124/dmd.120.000320](https://doi.org/10.1124/dmd.120.000320)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2021`
 - **Ersilia Contributor:** [ZakiaYahya](https://github.com/ZakiaYahya)
