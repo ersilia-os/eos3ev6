@@ -1,6 +1,6 @@
 # CYP3A4 metabolism
 
-Analysis of metabolic stability, determining the inhibition of CYP3A4 activity and whether the compounds are a substrate for the CYP3A$ enzyme. The data to build these models has been publicly available at PubChem (AID1645840, AID1645841, AID1645842) by ADME@NCATS.
+Assesses how a compound engages cytochrome P450 3A4, returning separate estimates for inhibiting the enzyme and for being turned over by it. Since cytochromes P450 handle the metabolism of over three quarters of marketed drugs, leaning too heavily on any single isoform raises the risk of interactions and variable pharmacokinetics. Gonzalez and colleagues at NCATS built QSAR models for catalysis and inhibition across three major isoforms using in-house screening data. Routine microsomal assays cannot separate these two behaviours, which is what motivated the models.
 
 This model was incorporated on 2023-07-06.Last packaged on 2025-10-17.
 
@@ -13,7 +13,7 @@ This model was incorporated on 2023-07-06.Last packaged on 2025-10-17.
 - **Task:** `Annotation`
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `ADMET`
-- **Target Organism:** `Any`
+- **Target Organism:** `Homo sapiens`
 - **Tags:** `CYP450`, `ADME`, `Metabolism`
 
 ### Input
@@ -23,7 +23,7 @@ This model was incorporated on 2023-07-06.Last packaged on 2025-10-17.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of inhibiting the enzyme and probability of being a ubstrate of the enzyme. Activity in both indicates the compound is a ligand of the enzyme.
+- **Interpretation:** Probability of inhibiting CYP3A4 and probability of being a substrate of the enzyme.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
