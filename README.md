@@ -1,6 +1,6 @@
 # CYP3A4 metabolism
 
-Assesses how a compound engages cytochrome P450 3A4, returning separate estimates for inhibiting the enzyme and for being turned over by it. Since cytochromes P450 handle the metabolism of over three quarters of marketed drugs, leaning too heavily on any single isoform raises the risk of interactions and variable pharmacokinetics. Gonzalez and colleagues at NCATS built QSAR models for catalysis and inhibition across three major isoforms using in-house screening data. Routine microsomal assays cannot separate these two behaviours, which is what motivated the models.
+Assesses how a compound engages cytochrome P450 3A4, returning separate estimates for inhibiting the enzyme and for being turned over by it. Cytochromes P450 metabolise over three quarters of marketed drugs, so overreliance on one isoform raises the risk of interactions and variable pharmacokinetics, which routine microsomal screening cannot pin to an isoform. Gonzalez and colleagues at NCATS screened 5,000 compounds for recombinant enzyme half-life and for P450-Glo inhibition, cross-referencing both to tell substrates from inhibitors, then trained stratified-bagging random forests.
 
 This model was incorporated on 2023-07-06.Last packaged on 2025-10-17.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2023-07-06.Last packaged on 2025-10-17.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of inhibiting CYP3A4 and probability of being a substrate of the enzyme.
+- **Interpretation:** Probability of inhibiting CYP3A4 below 10 uM and of turnover within a 30-minute half-life.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
