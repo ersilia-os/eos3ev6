@@ -3,7 +3,7 @@
 Assesses how a compound engages cytochrome P450 3A4, returning separate estimates for inhibiting the enzyme and for being turned over by it. Cytochromes P450 metabolise over three quarters of marketed drugs, so overreliance on one isoform raises the risk of interactions and variable pharmacokinetics, which routine microsomal screening cannot pin to an isoform. Gonzalez and colleagues at NCATS screened 5,000 compounds for recombinant enzyme half-life and for P450-Glo inhibition, cross-referencing both to tell substrates from inhibitors, then trained stratified-bagging random forests.
 
 This model was incorporated on 2023-07-06.
-Last packaged on 2025-10-17.
+Last packaged on 2026-11-27.
 
 ## Information
 ### Identifiers
@@ -43,12 +43,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `2506`
 - **Environment Size (Mb):** `2446`
-- **Image Size (Mb):** `7083.06`
+- **Image Size (Mb):** `1438`
 
 **Computational Performance (seconds):**
-- 10 inputs: `33.2`
-- 100 inputs: `43.12`
-- 10000 inputs: `1333.4`
+- 10 inputs: `29.63`
+- 100 inputs: `40.25`
+- 10000 inputs: `1367.11`
 
 ### References
 - **Source Code**: [https://github.com/ncats/ncats-adme](https://github.com/ncats/ncats-adme)
