@@ -2,7 +2,8 @@
 
 Assesses how a compound engages cytochrome P450 3A4, returning separate estimates for inhibiting the enzyme and for being turned over by it. Cytochromes P450 metabolise over three quarters of marketed drugs, so overreliance on one isoform raises the risk of interactions and variable pharmacokinetics, which routine microsomal screening cannot pin to an isoform. Gonzalez and colleagues at NCATS screened 5,000 compounds for recombinant enzyme half-life and for P450-Glo inhibition, cross-referencing both to tell substrates from inhibitors, then trained stratified-bagging random forests.
 
-This model was incorporated on 2023-07-06.Last packaged on 2025-10-17.
+This model was incorporated on 2023-07-06.
+Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
