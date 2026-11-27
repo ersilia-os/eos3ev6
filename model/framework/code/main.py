@@ -8,6 +8,9 @@ from rdkit import Chem
 # current file directory
 root = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(root, ".."))
+# vendored chemprop: utilities.py adds it to sys.path relative to the working directory,
+# so add it relative to this file as well (the working directory may be anywhere, e.g. Apptainer)
+sys.path.insert(0, os.path.join(root, "..", "predictors", "chemprop"))
 
 from predictors.cyp450.cyp450_predictor import CYP450Predictor
 
