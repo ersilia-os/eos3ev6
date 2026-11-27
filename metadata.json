@@ -39,7 +39,7 @@
     "License": "None",
     "Contributor": "ZakiaYahya",
     "Incorporation Date": "2023-07-06",
-    "Last Packaging Date": "2025-10-17",
+    "Last Packaging Date": "2026-11-27",
     "Release": "v1.0.2",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ev6.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos3ev6",
@@ -49,10 +49,10 @@
     ],
     "Model Size": 2506.0,
     "Environment Size": 2446.0,
-    "Image Size": 7083.06,
-    "Computational Performance 1": 33.2,
-    "Computational Performance 2": 23.07,
-    "Computational Performance 3": 43.12,
-    "Computational Performance 4": 279.22,
-    "Computational Performance 5": 1333.4
+    "Image Size": 1438.0,
+    "Computational Performance 1": 29.63,
+    "Computational Performance 2": 20.71,
+    "Computational Performance 3": 40.25,
+    "Computational Performance 4": 283.95,
+    "Computational Performance 5": 1367.11
 }
